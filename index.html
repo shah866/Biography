@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shadows%20Into%20Light">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+<title>
+ Shahd Qattoush
+</title>
+<style>
+
+
+
+    body{
+    background-color:#f7d2d4;
+
+}
+
+.card {
+  width: 230px;
+  background: white;
+  padding: .4em;
+  border-radius: 6px;
+}
+
+.card-image {
+    align-content: center;
+  background-color:white;
+  width: 100%;
+  height: 130px;
+  border-radius: 6px 6px 0 0;
+}
+
+
+
+.category {
+  text-transform: uppercase;
+  font-size:xx-large;
+  font-weight: 600;
+  color:#C88B85;
+  padding: 10px 7px 0;
+  
+}
+
+.heading {
+  font-weight: 600;
+  font-size: larger;
+  color: rgb(88, 87, 87);
+  padding: 7px;
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color:  #f7d2d4;
+}
+
+li{
+  float: left;
+}
+#l{
+float: left;
+}
+
+
+li a {
+  display: block;
+  color:#C88B85;
+ 
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family:Shadows Into Light, sans-serif;
+  
+}
+
+li a:hover {
+  background-color:rgba(255, 255, 255, 0.8);
+  border-radius: 60%;
+}
+
+div img{
+  border-radius: 50%;
+}
+a img{
+  border-radius: 50%;
+}
+
+img.I{
+    width: 300px;
+    height: 300px;
+    transition: 0.3s;
+
+}
+.I:hover {
+transform: scale(1.1);
+}
+#logo:hover{
+  transform: scale(1.1);
+}
+
+    .g1 {
+  display: grid;
+  grid-template-columns: auto auto  ;  
+ 
+  background-color:  #f7d2d4;
+    padding: 7px;
+}
+
+.grid {
+ 
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  
+}
+.g2,.g3 {
+  display: grid;
+  grid-template-columns: auto auto auto auto  ;  
+ 
+  background-color:  #f7d2d4;
+padding: 7px;
+}
+.grid2,.grid3 {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+ 
+}
+h1{
+  font-size: 70px;
+}
+
+
+
+
+
+    .button {
+  background-color:#C88B85;
+  border: none;
+  color:rgba(255, 255, 255, 0.8);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 6px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  font-family:Shadows Into Light, sans-serif;
+  font-size: xx-large;
+    }
+.desc {
+  background-color: rgba(255, 255, 255, 0.8);
+  
+  font-family: "Shadows Into Light", sans-serif;
+}
+.dropdown {
+  position:relative;
+
+
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position:relative;
+  min-width: 160px;
+  z-index: 1;
+ 
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  
+}
+.wrapper{
+    width: 300px;
+  height: 85px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.wrapper .icon{
+  position: relative;
+  background-color:#f7d2d4;
+  border-radius: 50%;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 22px;
+  display:inline-block;
+ text-align: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  
+  
+  color: #333;
+  text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  
+  
+            
+            img.I{
+                    width: 130px;
+                    height: 130px;
+                }
+                li a {
+  
+               font-size: medium;
+        
+}
+h1{
+  font-size: 40px;
+}
+          
+
+        
+
+            .g2{
+                grid-template-columns: auto   ;
+               
+            }
+            .g3{
+                grid-template-columns: auto  ;
+            }
+            h1{
+                font-size: x-large;
+            }
+            .button{
+                width: 100px;
+                font-size: small;
+
+            }
+            .desc{
+                width: 150px;
+            
+            }
+           
+        }
+        @media screen and (max-width: 300px) {
+            
+            .g2 {
+              
+              grid-template-columns:  auto ;
+            }
+            .g3 {
+              
+              grid-template-columns:  auto ;
+            }
+ 
+
+
+
+
+        }
+
+
+    </style>
+    </head>
+    <body>
+      <img src="logo.png" alt="logo" height="150" width="250" id="logo" style=" transition: 0.3s;">
+        <hr style="background-color: #E6BCB6;color: #E6BCB6; ; height:2px; border-width:0">
+        <ul>
+            <li ><a href="#home"><i class="material-icons">home</i>  <strong>Home </strong></a></li>
+          
+          
+            <li id="l"><a href="#f"><i class="material-icons">person</i> <strong> Contact </strong></a></li>
+           
+          </ul>
+        
+     
+    <div class="g1" id="home">
+            <div class="grid f">
+                <header>
+
+                  <h1 style="color:#C88B85;font-family:Shadows Into Light, sans-serif;">
+                   <strong>
+                    Biography for<br> Shahd Qattoush
+                  </strong>
+               </h1>
+                
+                    
+                </header>
+            </div>
+            <div class="grid s">
+                <img  class="I" src="me2.png" alt="shahd" >
+
+            </div>
+
+            </div>
+            <div>
+            <h2 style="color:#C88B85; text-align: center; font-size: xx-large;font-family:Shadows Into Light, sans-serif;">
+                 <strong> 
+             About Me 
+            </strong> 
+           </h2>
+           
+
+                 </div>
+                 
+           <div class="g2">
+            
+            
+           
+            <div class="grid2 one">
+        <div class="dropdown" >
+            <button class="button" ><strong>Academic side</strong></button>
+                
+            <div class="dropdown-content" >
+              <div class="desc">
+              <div class="card">
+                <div class="card-image"> <img src="as.gif" alt="Acadamic" width="100" height="100" >
+                </div>
+                <div class="category"> Academic side  </div>
+                <div class="heading"> I am a junior in bethlehem university and my major is software engnering my gpa is
+                     3.5 and ihave a scholership from the pssf, i
+                     have taken 3 java courses and my favorite course is object oriented.
+                  
+            </div>
+          </div>
+            </div>
+        </div>
+            </div>
+            </div>
+             <div class="grid2 two">
+
+           
+           <div class="dropdown">
+            <button class="button"><strong> My University</strong></button>
+                
+            <div class="dropdown-content">
+                
+            <div class="desc">
+              <div class="card">
+                <div class="card-image"> <img src="my.gif" alt="university" width="150" height="150" >
+                </div>
+                <div class="category"> My University </div>
+                <div class="heading">      Bethlehem University is a Catholic university located in the city of Bethlehem, in the West Bank
+                    it is the first higher education institution founded in the occupied Palestinian territories
+                  
+            </div>
+            </div>
+
+            </div>
+           </div>
+           </div>
+        </div>
+      
+         <div class="grid2 three">
+            <div class="dropdown">
+                <button class="button"><strong> My Achievments</strong>  </button>
+                    
+                <div class="dropdown-content">
+                    
+                <div class="desc">
+                  <div class="card">
+                    <div class="card-image"  > <img src="ac.gif" alt="Achievments" width="130" height="130" style="border-radius: 50%" >
+                    </div>
+                    <div class="category"> My Achievments </div>
+                    <div class="heading">   I finished high school in 2021 with final points 96 and i got
+                        accepted to study software engnering in bethlehem university 
+                        in the same year and now iam a junior with gpa 3.5.
+                      
+                </div>
+                </div>
+    
+                </div>
+               </div>
+               </div>
+         </div>
+         
+         
+               <div class="grid2 four">
+                <div class="dropdown">
+                    <button class="button"><strong> My Sports</strong>  </button>
+                        
+                    <div class="dropdown-content">
+                        
+                    <div class="desc">
+                      <div class="card">
+                        <div class="card-image"  > <img src="bb.gif" alt="Sports" width="130" height="130" style="border-radius: 50%" >
+                        </div>
+                        <div class="category"> My Sports </div>
+                        <div class="heading">      basketball is my favorite sport and watching the NBA is one of my hobbies,
+                            I have always dreamt of becoming a professional basketball player,
+                            a dream that has been etched into my heart since I first picked up a basketball. 
+                          
+                    </div>
+                    </div>
+        
+        
+                    </div>
+                   </div>
+                   </div>
+
+
+      </div>
+     
+     
+           </div>
+           <br>
+           <div class="g3">
+      <div class="grid3 a">
+        <div class="dropdown">
+            <button class="button"><strong> Web Diary</strong></button>
+                
+            <div class="dropdown-content">
+                
+            <div class="desc">
+              <div class="card">
+                <div class="card-image"  > <img src="wd.gif" alt="web" width="130" height="130" style="border-radius: 50%" >
+                </div>
+                <div class="category">  Web Diary </div>
+                <div class="heading">       1-  in the firt week we learned about  html<a href="s.html">  first week lab</a>
+                   
+                    2- in the second week we learned about forms<a href="site.html">  second week lab</a>
+                       
+                     3- in the third week we learned about css <a href="grid.html"> third week lab</a>
+            </div>
+            </div>
+
+
+            </div>
+           </div>
+           </div>
+
+</div>
+<div class="grid3 b">
+    <div class="dropdown">
+        <button class="button"> <strong>
+          My role modle
+        </strong></button>
+            
+        <div class="dropdown-content">
+            
+        <div class="desc">
+          <div class="card">
+            <div class="card-image"  > <img src="mrm.gif" alt="role" width="130" height="130" style="border-radius: 50%" >
+            </div>
+            <div class="category">  My role modle </div>
+            <div class="heading">       i dont have  a role modle i just look up to my self.
+        </div>
+        </div>
+
+
+        </div>
+       </div>
+       </div>
+
+</div>
+<div class="grid3 c">
+    <div class="dropdown">
+        <button class="button"><strong>My City</strong></button>
+            
+        <div class="dropdown-content">
+            
+        <div class="desc">
+          <div class="card">
+            <div class="card-image"  > <img src="mc.gif" alt="city" width="130" height="130" style="border-radius: 50%" >
+            </div>
+            <div class="category">  My City</div>
+            <div class="heading">  I live in bethlehem ,Bethlehem is located less than 10 kilometers south of the Old City of
+                Jerusalem, Bethlehem is the center of culture and tourism in Palestine, since it is identified by Christian tradition as
+                 the birthplace of Jesus.
+        </div>
+        </div>
+
+
+        </div>
+       </div>
+       </div>
+
+</div>
+
+
+<div class="grid3 d">
+    <div class="dropdown">
+        <button class="button"><strong> My Favorite</strong> </button>
+            
+        <div class="dropdown-content">
+            
+        <div class="desc">
+          <div class="card">
+            <div class="card-image"  > <img src="mf.gif" alt="favorite" width="130" height="130" style="border-radius: 50%" >
+            </div>
+            <div class="category">  My Favorite </div>
+            <div class="heading">  I like to watch anime and my favorite is demon slayer and Jujutsu Kaisen ,I have a deep and enduring passion
+                for watching anime that has been a significant part of my life for as long as I can remember.
+        </div>
+        </div>
+
+        </div>
+       </div>
+       </div>
+
+</div>
+
+
+</div>
+
+<br>
+
+<footer id="f">
+
+
+
+  <h2 style="color:#C88B85; text-align: left; font-size: xx-large;font-family:Shadows Into Light, sans-serif;">
+    <strong> 
+Contact Me!
+</strong> 
+</h2>
+        
+  <div class="wrapper">
+  <a href="https://twitter.com/qattoush66" class="icon twitter">
+    
+    <span><i class="fab fa-twitter" ></i></span>
+  </a>
+  <a href="https://www.instagram.com/shahdqattoush/" class="icon instagram">
+  
+    <span><i class="fab fa-instagram"></i></span>
+  </a>
+  <a href="https://github.com/shah866" class="icon github">
+   
+    <span><i class="fab fa-github"></i></span>
+  </a>
+  
+</div>
+ 
+  
+   
+
+
+</footer>
+
+
+    </body>
+
+</html>
